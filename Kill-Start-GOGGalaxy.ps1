@@ -16,5 +16,5 @@ taskkill /IM "GalaxyClient.exe" /F
 Remove-Item "C:\ProgramData\GOG.com\Galaxy\lock-files\GalaxyClient.exe-galaxy-client.lock"
 Remove-Item "C:\ProgramData\GOG.com\Galaxy\lock-files\GOG Galaxy Notifications Renderer.exe.lock"
 
-# Start GOG Galaxy Client
+# Start GOG Galaxy Client (you may have to change the installation path)
 & "C:\Program Files (x86)\GOG Galaxy\GalaxyClient.exe"
