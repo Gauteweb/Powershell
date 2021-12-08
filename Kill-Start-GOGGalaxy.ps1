@@ -1,3 +1,8 @@
+# Have problems with starting Good Old Games (GOG) Galaxy?
+# This script will kill all GOG services, delete the lock-files and restart the GOG Galaxy client.
+# Written by Gaute Holmin 08. december 2021.
+# Tested on Windows 11 Pro 21H2
+
 # To be able to run Powershell scripts, make sure you have unrestricted access.
 # Run get-executionpolicy to check
 # To change policy, run Powershell as administrator and type set-executionpolicy Unrestricted
